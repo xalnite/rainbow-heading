@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Rainbow Heading",
+    "version": "1.0",
+    "description": "Coloring headlines in rainbow colors to all webpages matching mozilla.org.",
+    "icons": {
+        "48": "icons/rainbow48.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "icons/button19.png",
+            "38": "icons/button38.png"
+        },
+        "default_title": "Rainbow Heading"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ]
+}
