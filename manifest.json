@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Rainbow Heading",
     "version": "1.0",
-    "description": "Coloring headlines in rainbow colors to all webpages matching mozilla.org.",
+    "description": "Coloring headlines in rainbow colors to all webpages.",
     "icons": {
         "48": "icons/rainbow48.png"
     },
