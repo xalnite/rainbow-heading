@@ -18,5 +18,12 @@
             "matches": ["<all_urls>"],
             "js": ["content.js"]
         }
-    ]
+    ],
+    "applications": {
+        "gecko": {
+            "id": "{4f73a092-825a-4f7d-8bc7-343b96e48f64}",
+            "update_url":"https://192.168.10.101:5500/updates.json",
+            "strict_min_version": "55.0"
+        }
+    }
 }

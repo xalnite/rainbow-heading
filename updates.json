@@ -1,0 +1,12 @@
+{
+    "addons": {
+        "{4f73a092-825a-4f7d-8bc7-343b96e48f64}l": {
+            "updates": [
+                {
+                    "version": "1.0.0.0",
+                    "update_link": "https://192.168.10.101:5500/rainbow_heading.xpi"
+                }
+            ]
+        }
+    }
+}

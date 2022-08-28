@@ -6,6 +6,7 @@ module.exports = {
         overwriteDest: true,
     },
     ignoreFiles: [
-        'web-ext-config.js',
-    ],
+        'updates.json',
+        'web-ext-config.js'
+    ]
 };
